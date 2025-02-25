@@ -1,0 +1,14 @@
+<.flash_group flash={@flash} />
+<div>
+  <ul class="flex flex-col justify-center items-center gap-7xl">
+    <li>
+      <.link href={~p"/sims"}> Sims</.link>
+    </li>
+
+    <li>
+      <button class="" phx-click={JS.toggle(to: "#head")}>try</button>
+      <.link href={~p"/headers"} id="head"> togg</.link>
+      <div><test-but /></div>
+    </li>
+  </ul>
+</div>
